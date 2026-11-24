@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MKn5NWVBEuQXJE7TSKSgPUmMiSCmVTfCsR+VSSeQpHnoyJQZZFn/kBn+Ht5jZDPQ" crossorigin="anonymous">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-+PW0IDVGGwmpaBQvcXY+W0BcpHpITFB3dSfSoGvDdHtLbrLpSbpGcvtQRM/BJpz+" crossorigin="anonymous"></script>
+  <title>Miranda - Desenvolvedor</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="assets/favicon.svg">
+
+  <!-- Fontes Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Folha de Estilo -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Link de acessibilidade para o teclado -->
+  <a href="#home" class="skip-link">Pular para a Home</a>
+
+  <!-- Navegação -->
+  <header id="topo" class="site-header" data-site-header>
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Miranda - Página Inicial">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="brand-text">Samuel Miranda<span class="brand-accent">.dev</span></span>
+      </a>
+
+      <!-- Controle checkbox invisível -->
+      <input
+        type="checkbox"
+        id="nav-toggle"
+        class="nav-toggle-input"
+        aria-label="Abrir ou fechar menu de navegação"
+        data-nav-checkbox
+      >
+      <label
+        for="nav-toggle"
+        class="nav-toggle-btn"
+        aria-controls="primary-navigation"
+        data-nav-toggle
+      >
+        <span class="hamburger-lines" aria-hidden="true"></span>
+        <span class="sr-only">Menu</span>
+      </label>
+
+      <nav
+        id="primary-navigation"
+        class="primary-nav"
+        aria-label="Navegação principal"
+        data-nav-menu
+      >
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#home" class="nav-link" data-nav-link>Início</a>
+          </li>
+          <li class="nav-item">
+            <a href="#sobre" class="nav-link" data-nav-link>Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a href="#habilidades" class="nav-link" data-nav-link>Habilidades</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projetos" class="nav-link" data-nav-link>Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#experiencia" class="nav-link" data-nav-link>Experiências</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contato" class="nav-link" data-nav-link>Contato</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Próxima seção entrará aqui -->
+  <main>
+    <!--Principais-Informações-->
+    <section id="home" class="Info">
+      <div class="container info-grid">
+        <!--Coluna-De-Apresentação-->
+        <div>
+          <span class="badge">Disponíveis para novos projetos</span>
+          <p class="info-subtitle">Olá, eu sou <strong>Samuel Miranda</strong>Desenvolvedor Full Stack</p>
+          <h1 class="info-title">Um Aluno <span class="info-title2">De Tecnico de Informática</span></h1>
+          <p class="info-text">Primeiramente, sou um aluno de TI que está na reta final da finalização do curso, e também estou aprendendo a tocar bateria </p>
+          
+
+    </section>
+    <section>
+
+
+        <!-- Coluna da Direita: Cartão de Código Decorativo -->
+        <aside class="card code-card" aria-label="Resumo técnico">
+          <div class="code-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <pre class="code-block"><code></code></pre>
+        </aside>
+                  <div class="info-actions">
+            <a href="sobre.html" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-secondary">Entrar em contato</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
