@@ -255,11 +255,11 @@ address {
 }
 
 .info-subtitle{
-   color: var(--color-bg-secondary);
+   color: var(--color-bg-primary);
 }
 
 .info-title{
- color: var(--color-bg-secondary);
+ color: var(--color-bg-primary);
 }
 
 .info-title2{
@@ -271,7 +271,7 @@ address {
 }
 
 .info-text{
- color: var(--color-bg-secondary);
+ color: var(--color-bg-primary);
 }
 
 .btn{
