@@ -264,6 +264,10 @@ address {
 
 }
 
+.info-text{
+ color: var(--color-bg-secondary);
+}
+
 .btn{
   display: inline-flex;
   align-items: center;
