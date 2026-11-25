@@ -249,11 +249,11 @@ address {
 }
 
 .info-subtitle{
-
+   color: var(--color-bg-secondary);
 }
 
 .info-title{
- color: var(--color-text-muted);
+ color: var(--color-bg-secondary);
 }
 
 .info-title2{
